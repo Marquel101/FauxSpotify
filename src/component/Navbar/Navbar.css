@@ -1,14 +1,4 @@
-.navbar {
+.bar {
+    color:red;
     background-color: black;
-    color: #ffff;
-    padding: 3vw;;
-}
-
-.links {
-    display: flex;
-    flex-direction: row;
-}
-
-.auth {
-    display: flex;
 }
