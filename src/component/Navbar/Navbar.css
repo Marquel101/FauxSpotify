@@ -1,4 +1,54 @@
-.bar {
-    color:red;
-    background-color: black;
+a:active, a:visited, a:link, a:active {
+    text-decoration: none;
+    color:inherit
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: #000000;
+    color:white;
+   
+    
+}
+.navbar {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 15.7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1168px;
+    padding: 0 15px;
+}
+
+li{
+    list-style: none;
+}
+.logo {
+    height: 40px;
+    width: 121px;
+    
+}
+.navlinks {
+    display: flex;
+    gap: 37px;
+    
+}
+
+.line {
+    border-left: 1px solid #ffffff;
+    height: 20px;
+}
+
+.hamburger {
+    position: absolute;
 }
