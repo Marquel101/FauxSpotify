@@ -11,12 +11,14 @@ a:active, a:visited, a:link, a:active {
 .banner {
     background-color: #000000;
     color:white;
+   
     
 }
 .navbar {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
+
     align-items: center;
     font-weight: 600;
     line-height: 1.5;
@@ -48,6 +50,7 @@ li{
 }
 
 .hamburger {
+<<<<<<< HEAD
     display: none;
 }
 
@@ -118,4 +121,7 @@ li{
     .hamburgeractive .bar:nth-child(3) {
         transform: translateY(-8px) rotate(45deg);
     }
+=======
+    position: absolute;
+>>>>>>> parent of b3d59de... starting on hamburger
 }
