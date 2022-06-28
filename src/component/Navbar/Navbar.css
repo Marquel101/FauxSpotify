@@ -11,14 +11,12 @@ a:active, a:visited, a:link, a:active {
 .banner {
     background-color: #000000;
     color:white;
-   
     
 }
 .navbar {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     font-weight: 600;
     line-height: 1.5;
@@ -50,5 +48,33 @@ li{
 }
 
 .hamburger {
-    position: absolute;
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 23px;
+    height: 3px;
+    margin: 4px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(max-width:991px) {
+    .navbar {
+        max-width: 758px;
+        min-height: 53px;
+    }
+    .logo {
+       width: 80px;
+       height: 24px; 
+    }
+    
+     .navlinks {
+         display: none;
+     }
+    .hamburger {
+        display: block;
+    }
 }
