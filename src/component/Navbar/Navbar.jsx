@@ -11,7 +11,7 @@ export default function Navbar() {
   const toggle = () => {
     toggler ? setToggler(false) : setToggler(true)
   }
-  // const hamburger = document.querySelector(".hamburger")
+   const hamburger = document.querySelector(".hamburger")
   // const navLinks = document.querySelector(".navlinks")
 
   // hamburger.addEventListener("click",() => {

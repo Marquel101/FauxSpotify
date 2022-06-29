@@ -2,23 +2,18 @@ a:active, a:visited, a:link, a:active {
     text-decoration: none;
     color:inherit
 }
-
 *{
     padding: 0;
     box-sizing: border-box;
 }
-
 .banner {
     background-color: #000000;
     color:white;
-   
-    
 }
 .navbar {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     font-weight: 600;
     line-height: 1.5;
@@ -29,10 +24,6 @@ a:active, a:visited, a:link, a:active {
     max-width: 1168px;
     padding: 0 15px;
 }
-
-li{
-    list-style: none;
-}
 .logo {
     height: 40px;
     width: 121px;
@@ -41,26 +32,28 @@ li{
 .navlinks {
     display: flex;
     gap: 37px;
-    
 }
-
+.links, .auth {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
 .line {
     border-left: 1px solid #ffffff;
     height: 20px;
 }
-
+li{
+    list-style: none;
+}
 .hamburger {
-<<<<<<< HEAD
     display: none;
 }
-
 .bar {
     display: block;
     width: 23px;
     height: 3px;
     margin: 4px auto;
-    transition: all 0.2s ease-in-out;
-    
+    transition: all 0.2s ease-in-out;   
     background-color: white;
 }
 
@@ -76,7 +69,7 @@ li{
     
      .navlinks {
          position: absolute;
-         right: -50%;
+         right: -1000px;
          top: 36px;
          gap: 0;
          flex-direction: column;
@@ -87,9 +80,20 @@ li{
          transition: 0.3s;
      }
      .links {
-         font-size: 35px;
+         font-size: 37px;
+         font-weight: 450;
+         flex-direction: column;
+         margin-top: -21px;
+         gap: 5px;
      }
-    
+
+     .auth {
+         font-size: 28px;
+         flex-direction: column;
+         font-weight: 400;
+         gap: 11px;
+         margin-top: 35px;
+     }
      .navlinksactive {
         position: absolute;
          right: 0%;
@@ -101,13 +105,14 @@ li{
          height: 100%;
          text-align: left;
          transition: 0.3s;
-         padding-left: 30px;
+         padding-left: 40px;
      }
 
      .lineactive {
         border-bottom: 2px solid #ffffff;
         height: 20px;
-        width: 15px;  
+        width: 21px; 
+        margin-top: 15px 
      }
     .hamburger {
         display: block;
@@ -121,7 +126,4 @@ li{
     .hamburgeractive .bar:nth-child(3) {
         transform: translateY(-8px) rotate(45deg);
     }
-=======
-    position: absolute;
->>>>>>> parent of b3d59de... starting on hamburger
 }
