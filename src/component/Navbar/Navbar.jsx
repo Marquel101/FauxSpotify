@@ -23,9 +23,9 @@ export default function Navbar() {
     <div className="navbar">
       <div className="brand">
        <img className='logo' src={logo}/>
-      </div>
-        <ul className={toggler ? "navlinks" : "navlinksactive"}>
-            <div className="links">
+      </div>0
+        <ul className={toggler ? "" : "navlinksactive"}>
+            <div className="links">navlinks
               <li className="link">Premium</li>
               <li className="link">Support</li>
               <li className="link">Download</li>
