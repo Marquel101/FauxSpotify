@@ -1,3 +1,39 @@
-* {
-    color: #4494b9;
+.splash {
+    background-color: #2941ab;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+    background-repeat: no-repeat;
+    background-size: 215%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+@media (min-width: 1200px) {
+.splash{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+}
+}
+@media (min-width: 480px) {
+.splash{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 153%;
+    background-position: right 40% center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
 }
