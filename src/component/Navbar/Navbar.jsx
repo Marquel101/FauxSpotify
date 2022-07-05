@@ -1,37 +1,21 @@
 import "./Navbar.css"
 import React from 'react'
-import { Link } from "react-router-dom";
 import logo from "./spotify.jpg"
 import { useState } from "react";
 
 export default function Navbar() {
 
   const [toggler, setToggler] = useState(true)
-  const [hide, setHide] = useState(true)
-  const [check,setCheck] = useState(false)
-
-  
-  const width = window.innerWidth
-  
-  // const toggleCheck = () => {
-  //    if (width > 991) {
-       
-  //      setToggler(true)
-  //    }
-  //   }
-  // toggleCheck()
  
   const toggle = () => {
     toggler ? setToggler(false) : setToggler(true)
   }
-  const hider = () => {
-    hide ? setHide(false) : setHide(true)
-  }
+
   return (
     <div className="banner">
     <div className="navbar">
       <div className="brand">
-       <img className='logo' src={logo}/>
+       <img alt="Spotify" className='logo' src={logo}/>
       </div>
         <ul className={toggler  ? "navlinks" : "navlinksactive"}>
             <div className="links">

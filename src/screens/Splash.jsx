@@ -9,7 +9,7 @@ export default function Splash(params) {
                 <p>Millions of songs and podcasts. No credit card needed.</p>
                 </div>
                 <div className="button">
-                    <a>GET SPOTIFY FREE</a>
+                    <a href="/">GET SPOTIFY FREE</a>
                 </div>
             </div>
             <div className="dot" id="dot1"></div>

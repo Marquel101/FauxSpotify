@@ -17,7 +17,6 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     display: block;
-    
     --background-base: #121212;
     --background-highlight: #181818;
     --background-press: #090909;
@@ -68,6 +67,20 @@ h1 {
     letter-spacing: -1.75px;
     line-height: 56px;
     color: var(--text-bright-accent,#117a37);
+}
+p{
+    color: var(--text-bright-accent,#117a37);
+    font-weight: 500;
+}
+.button {
+    border: 2px  ;
+    background-color: #2ec766;
+    padding: 16px 0;
+    border-radius: 30px;
+    margin: 0 310px;
+    font-size: 14px;
+    font-weight: 555;
+    color: #2941ab;
 }
 @media (min-width: 480px) {
     .splash {
