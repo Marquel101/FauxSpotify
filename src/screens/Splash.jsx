@@ -12,10 +12,6 @@ export default function Splash(params) {
                     <a href="/">GET SPOTIFY FREE</a>
                 </div>
             </div>
-            <div className="dot" id="dot1"></div>
-            <div className="dot"id="dot2"></div>
-            <div className="dot"id="dot3"></div>
-            <div className="dot"id="dot4"></div>
         </div>
     )
 };
