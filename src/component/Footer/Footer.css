@@ -64,8 +64,85 @@
     font-size: 12px;
     font-weight: 400;
     color: #bbbbbb;
+    margin-top: 70px;
+}
+.country {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
 }
 .other__things {
     display: flex;
     gap: 25px;
+}
+.trade {
+    margin-left: 275px;
+}
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        padding: 40px 0 0 0 ;
+    }
+    .container {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: auto;
+    }
+    .top__content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footlogo {
+        height: 30px;
+        width: 95px;
+    }
+    .categories{
+        margin: 40px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        gap: 37px;
+    }
+    .list__items{
+        margin-top: 25px;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+    .icons {
+        margin: 130px 0 0 0;
+        padding: 0;
+        font-size: 25px;
+    }
+    #fb {
+        width: 25px;
+    }
+    #ig,
+    #twt,
+    #fb {
+        color: #ffffff;
+        background-color: #2e2c2c;
+        border-radius: 50%;
+        padding: 9px;
+    }
+    .bottom {
+        font-size: xx-small;
+        margin: 0;
+    }
+    .country {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+    .other__things {
+        
+        
+    }
+    .trade {
+        
+    }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
 }
