@@ -44,13 +44,15 @@ export default function Footer() {
                         USA
                     </div>
                     <div className='other__things'>
-                        <div>Legal</div>
-                        <div>Privacy Center</div>
-                        <div>Privacy Policy</div>
-                        <div>Cookies</div>
-                        <div>About Ads</div>
-                        <div>Additional CA Privacy Dislosures</div>
-                        <div><span className="trade">2022 Spotify AB</span></div>
+                        <ul className='partone'>
+                            <li className='secondary'>Legal</li>
+                            <li className='secondary'>Privacy Center</li>
+                            <li className='secondary'>Privacy Policy</li>
+                            <li className='secondary'>Cookies</li>
+                            <li className='secondary'>About Ads</li>
+                            <li className='secondary'>Additional CA Privacy Dislosures</li>
+                        </ul>
+                        <span className="trade">2022 Spotify AB</span>
                     </div>
                 </div>
             </div>
