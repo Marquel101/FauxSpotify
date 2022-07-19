@@ -149,7 +149,7 @@
 @media (min-width:769px) and (max-width: 992px) {
     .footer {
         height: auto;
-        padding: 50px 0 20px 0;
+        padding: 42px 0 0 0;
     }
     .container {
          margin: 0 15px;
@@ -176,29 +176,42 @@
     }
     .icons {
         margin: 0;
+        margin-bottom: 15px;
         padding: 0;
+        font-size: 26px;
     }
     #fb {
+        width: 25px;
+        font-size: 24px;
     }
     #ig,
     #twt,
     #fb {
+        padding: 8px;
     }
     .bottom {
         margin: 0
     }
     .country {
         margin: 0;
+        margin-bottom: -10px;
     }
     .other__things {
         margin: 0;
+        align-items: baseline;
     }
     .partone {
-        width: 476px;
+        width: 400px;
         padding: 0 0 0 0 ;
     }
     .secondary {
         margin: 0;
+        margin-right: 25px;
+        line-height: 40px;
+        
+    }
+    .secondary:last-child {
+        
     }
     .trade {
        margin-right: 0;

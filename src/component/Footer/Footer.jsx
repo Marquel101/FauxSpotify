@@ -49,8 +49,8 @@ export default function Footer() {
                             <li className='secondary'>Privacy Center</li>
                             <li className='secondary'>Privacy Policy</li>
                             <li className='secondary'>Cookies</li>
-                            <li className='secondary'>About Ads</li>
-                            <li className='secondary'>Additional CA Privacy Dislosures</li>
+                            <li className='secondary'>About Ads </li>
+                            <li className='secondary'> Additional CA Privacy Dislosures </li>
                         </ul>
                         <span className="trade">2022 Spotify AB</span>
                     </div>
