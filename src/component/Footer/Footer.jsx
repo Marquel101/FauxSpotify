@@ -1,5 +1,5 @@
 import './Footer.css'
-import footLogo from "/home/marquel/portfolio/fauxspotify/spotify/src/component/Navbar/spotify.jpg"
+import footLogo from "/home/marquel/portfolio/fauxspotify/spotify/src/component/Footer/spotify.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 

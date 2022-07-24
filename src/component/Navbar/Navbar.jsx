@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import React from 'react'
-import logo from "./spotify.jpg"
+import logo from "/home/marquel/portfolio/fauxspotify/spotify/src/component/Navbar/spotify.jpg"
 import { useState } from "react";
 
 export default function Navbar() {
