@@ -1,6 +1,5 @@
 import "./Navbar.css"
 import React from 'react'
-import logo from "/home/marquel/portfolio/fauxspotify/spotify/src/component/Navbar/spotify.jpg"
 import { useState } from "react";
 
 export default function Navbar() {
@@ -15,7 +14,7 @@ export default function Navbar() {
     <div className="banner">
     <div className="navbar">
       <div className="brand">
-       <img alt="Spotify" className='logo' src={logo}/>
+       <img alt="Spotify" className='logo' src="https://i.imgur.com/8o2sR7p.jpg"/>
       </div>
         <ul className={toggler  ? "navlinks" : "navlinksactive"}>
             <div className="links">

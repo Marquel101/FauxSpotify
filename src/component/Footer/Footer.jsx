@@ -1,5 +1,4 @@
 import './Footer.css'
-import footLogo from "/home/marquel/portfolio/fauxspotify/spotify/src/component/Footer/spotify.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className='footer'>
             <div className='container'>
                 <div className='top__content'>
-                    <img alt="Spotify" className='footlogo' src={footLogo}/>
+                    <img alt="Spotify" className='footlogo' src="https://i.imgur.com/8o2sR7p.jpg"/>
                     <div className='categories'>
                         <ul className="category">
                             <div id='company'>COMPANY</div>
