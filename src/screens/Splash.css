@@ -12,6 +12,7 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+    
 }
 .intro {
     box-sizing: border-box;

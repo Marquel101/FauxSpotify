@@ -9,7 +9,9 @@ export default function Navbar() {
   const toggle = () => {
     toggler ? setToggler(false) : setToggler(true)
   }
-
+  if (document.querySelector("hamburgeractive")) {
+    console.log("hi")
+  }
   return (
     <div className="banner">
     <div className="navbar">
