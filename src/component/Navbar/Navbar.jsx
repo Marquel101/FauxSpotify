@@ -5,12 +5,12 @@ import { useState } from "react";
 export default function Navbar() {
 
   const [toggler, setToggler] = useState(true)
- 
+  
   const toggle = () => {
     toggler ? setToggler(false) : setToggler(true)
   }
-  if (document.querySelector("hamburgeractive")) {
-    console.log("hi")
+  if (document.getElementsByClassName("navlinksactive")) {
+    window.scrollTo(0,0)
   }
   return (
     <div className="banner">
@@ -24,7 +24,7 @@ export default function Navbar() {
               <li className="link">Support</li>
               <li className="link">Download</li>
             </div>
-            <li className={toggler ? "line" : "lineactive"}></li>
+            <li className="line"></li>
             <div className="auth">
               <li className="link">Sign up</li>
               <li className="link">Log in</li>
