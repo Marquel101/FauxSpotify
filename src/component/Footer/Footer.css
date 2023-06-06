@@ -43,6 +43,9 @@
     font-size: 15px;
     letter-spacing: .5px;
 }
+.list__items:hover {
+    color:#2ec766;
+}
 .icons {
     margin: 18px 0 0 115px;
     font-size: 21px;
@@ -84,6 +87,9 @@
 .secondary {
     display: inline;
     margin-right: 25px;
+}
+.secondary:hover{
+    color:#434040;
 }
 .trade {
     margin: 0 15px 0 auto;
@@ -140,6 +146,7 @@
         margin-top: 15px;
     }
     .partone {
+        margin: 0 45px 0 0;
         padding: 0;
     }
     .trade {

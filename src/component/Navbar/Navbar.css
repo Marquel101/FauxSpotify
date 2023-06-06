@@ -40,6 +40,9 @@ a:active, a:visited, a:link, a:active {
     flex-direction: row;
     gap: 37px;
 }
+.link:hover {
+    color: #2ec766;
+}
 .line {
     border-left: 1px solid #ffffff;
     height: 20px;
